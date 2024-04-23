@@ -1,0 +1,153 @@
+body{
+    background-color: #2a2438;
+    z-index: 1;
+}
+/* Все про меню */
+.menu{
+ padding: 0 50px;
+ display: flex;
+ height: 90px;
+ align-items: center;
+ margin: 30px 50px;
+ border: 1px solid #5c5470;;
+ border-radius: 40px;
+ z-index: 2;
+}
+.link{
+ text-decoration: none;
+ font-size: 30px;
+ color:white;
+ margin: 0 25px;
+}
+.logo{
+ text-decoration: none;
+ font-size: 30px;
+ font-weight: 600;
+ color:white;
+ margin: 0 25px; 
+}
+.btn{
+ background-color: rgb(32, 219, 219);
+ padding: 5px 15px;
+ border-radius: 20px;
+ text-decoration: none;
+ font-size: 30px;
+ color: black;
+ margin: 0 25px;
+}
+.right{
+ position: absolute;
+ right: 80px;
+}
+.menu a:hover{
+    color:rgba(90, 89, 89, 0.966)
+}
+
+
+
+/* Секция hero*/
+section{
+ min-height: calc(100vh - 150px - 50px);
+}
+#hero{
+ display: flex;
+}
+.korobka{
+ width: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+}
+.korobka2{
+ width: 50%;
+ display: flex;
+ align-items: end;
+ justify-content: center; 
+}
+h1{
+ font-size: 100px;
+ color: white;
+}
+h2{
+ font-size: 30px;
+ margin: 0;
+ color: white;
+}
+
+
+/* Skills */
+.dflex{
+    display: flex;
+}
+
+
+/* Украшения */
+.krug{
+ width: 800px;
+ height: 800px;
+ position: absolute;
+ top: 400px;
+ right: 30px;
+ background: rgb(42,36,56);
+ background: linear-gradient(90deg, rgba(42,36,56,1) 0%, rgba(92,84,112,1) 36%, rgba(169,205,212,1) 100%);
+ z-index: 1;
+ border-radius: 100%;
+}
+img{
+ z-index: 2;
+ width: 700px;
+}
+#aboutme{
+ position: relative;
+ z-index: 3;
+ background-color: #5c5470;
+}
+p{
+    font-size: 50px;
+}
+.punkti{
+    display: flex;
+}
+.mert img{
+    height: 100vh;
+}
+.txcentr{
+    text-align: center;
+}
+
+/*projects*/
+#projects{
+    background-color: #5c5470;
+}
+.vidra img{
+    width: 900px;
+}
+.knopkavidra a {
+    text-decoration: none;
+    font-size: 70px;
+    border-radius: 40px;
+    padding: 5px 40px;
+    background-color: aqua;
+    color: black;
+}
+.knopkavidra a:hover{
+    color: rgb(30, 145, 145);
+}
+/*blogs*/
+.treti{
+    margin-top: 700px;
+}
+.fz{
+    font-size: 30px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+}
+.knopka a{
+    background-color: aqua;
+    font-size: 50px;
+    color: black;
+    padding: 0 10px;
+    border-radius: 30px;
+}
